@@ -1,11 +1,11 @@
 # DFVO
 DFVO: Learning Darkness-free Visible and Infrared Image Disentanglement and Fusion All at Once
-## Framework
+## Network Structure
 ![framework](https://github.com/DaVin-Qi530/DFVO/blob/master/Figure/Framework.jpg)
-The architecture of our DFVO method. Dashed lines represent the data-flow for hidden i-stage, and solid lines represent the data-flow for hidden ii-stage. The feature extraction module serves both hidden tasks (illumination enhancement & image fusion) in a shared manner.
-## FEM Architecture
+The overall architecture of our method. The parallel cascaded tasks include the infrared image-reconstruction task, illumination disentanglement task, and image fusion task. (a) The specific structure of the Details-Extraction Module, which aims to capture high-frequency features from the source images. (b) The architecture of the Hyper Cross-Attention Module, which is designed to obtain the low-frequency features.
+## LCFE Architecture
 ![module](https://github.com/DaVin-Qi530/DFVO/blob/master/Figure/Modules.jpg)
-The details of the modules. (left) Interaction details of the cross-attention module. (right) Specific blocks of the details-extraction module.
+(a) The visual results of iteration process in the Details-Extraction Module. (b)The interaction details of the Hyper Cross-Attention Module.
 
 ## About Code
 This paper is currently under review. We will open-source it as soon as it is accepted for publication.
