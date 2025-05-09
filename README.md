@@ -20,9 +20,9 @@ thop=0.1.1
 ```
 
 ### Dataset
-The LLVIP dataset can be downloaded via the following link: [here](https://bupt-ai-cz.github.io/LLVIP/).
-The KAIST dataset can be downloaded via the following link: [here](https://github.com/SoonminHwang/rgbt-ped-detection).
-The MSRS dataset can be downloaded via the following link: [here](https://github.com/Linfeng-Tang/MSRS).
+The LLVIP dataset can be downloaded via the following link: [here](https://bupt-ai-cz.github.io/LLVIP/).\
+The KAIST dataset can be downloaded via the following link: [here](https://github.com/SoonminHwang/rgbt-ped-detection).\
+The MSRS dataset can be downloaded via the following link: [here](https://github.com/Linfeng-Tang/MSRS).\
 The SMOD dataset can be downloaded via the following link: [here](https://www.kaggle.com/datasets/zizhaochen6/sjtu-multispectral-object-detection-smod-dataset).
 
 ### To Train
